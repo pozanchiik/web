@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(circle at top left, rgba(179, 255, 218, 0.47), rgba(252, 151, 151, 0.473));
+    margin: 5px;
+    display: grid;
+    min-height: 100vh;
+}
+
+@media (max-width: 768px){
+    body{
+        grid-template-columns: 1fr;
+    }
+
+    address{
+        inline-size: 100%;
+        width: fit-content;
+    }
+}
+
+h1 {
+    margin: 2px;
+}
+
+h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 1000;
+    margin: 1px;
+    padding-top: 2px;
+}
+
+a[href] {
+    font-size: 24px;
+}
+
+a:-webkit-any-link {
+    color: black;
+    text-decoration-thickness: 2px;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5px;
+}
+
+address {
+    width: fit-content;
+    margin: 2px;
+    border: 4px dotted royalblue;
+    padding: 3px;
+}
+
+address p {
+    font-family: 'DM Sans', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-display: swap;
+    font-size: 20px;
+}
+
+#skills{
+    font-family: "Arimo", sans-serif;
+}
+
+.copy {
+    font-style: italic;
+}

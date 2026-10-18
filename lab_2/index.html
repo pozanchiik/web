@@ -2,16 +2,26 @@
 <html lang="uk">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" > 
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
         <title>Resume</title>
+        <style>
+            body{
+                font-family: 'Times New Roman', Times, serif;
+                line-height: 1,5;
+            }
+        </style>
     </head>
 
     <body>
         <header>
-            <h1>Maksym Baranovskyi</h1>
+            <h1 style="color: rgb(7, 7, 161);">Maksym Baranovskyi</h1>
             <address>
-                <p><strong>Email:</strong> <a href="mailto:maksym.baranovskyi.kb.2025@lpnu.ua">maksym.baranovskyi.kb.2025@lpnu.ua</a></p>
-                <p><strong>GitHub:</strong> <a href="https://github.com" target="_blank">github.com/pozanchiik</a></p>
+                <p>Email: <a href="mailto:maksym.baranovskyi.kb.2025@lpnu.ua">maksym.baranovskyi.kb.2025@lpnu.ua</a></p>
+                <p>GitHub: <a href="https://github.com" target="_blank">github.com/pozanchiik</a></p>
                 <p>Lviv, Ukraine</p>
             </address>
         </header>
@@ -42,7 +52,7 @@
 
             <section>
                 <h2>Skills</h2>
-                <ul>
+                <ul id="skills">
                     <li>Applying the principles of programming
                         in Python and C# and using related development tools.</li>
                     <li>Basic Git Skills</li>
@@ -52,7 +62,7 @@
         </main>
 
         <footer>
-            <p>&copy; 2026 Maksym Baranovskyi.</p>
+            <p class="copy">&copy; 2026 Maksym Baranovskyi.</p>
         </footer>
         
 
